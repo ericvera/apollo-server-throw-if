@@ -1,0 +1,28 @@
+{
+  "name": "apollo-server-throw-if",
+  "version": "0.0.1",
+  "description": "A library that throws Apollo Server exceptions when validations fail.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Eric Vera <hey@itsmeeric.com>",
+  "keywords": [
+    "firebase",
+    "graphql",
+    "apollo",
+    "cloud functions",
+    "apollo-server",
+    "validate",
+    "validation"
+  ],
+  "repository": {
+    "url": "https://github.com/ericvera/apollo-server-throw-if",
+    "type": "git"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "peerDependencies": {
+    "apollo-server": "~2.0"
+  }
+}
