@@ -22,7 +22,7 @@
     "apollo-server": "~2.0"
   },
   "dependencies": {
-    "check-if": "^0.2.0"
+    "check-if": "^0.3.0"
   },
   "prettier": {
     "semi": false,

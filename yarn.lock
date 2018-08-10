@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-check-if@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/check-if/-/check-if-0.2.0.tgz#c2bdd3c084de8dbbf5a960a93299963fdf8e1616"
+check-if@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/check-if/-/check-if-0.3.0.tgz#ccf2fe86563107404cb437f1a4b9adf8484cfb4a"
