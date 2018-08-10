@@ -1,5 +1,5 @@
-import checkIf from 'check-if'
-import { UserInputError } from 'apollo-server'
+const checkIf = require('check-if')
+const { UserInputError } = require('apollo-server')
 
 module.exports = (value, argumentName) => {
   if (!checkIf.isTrimmedNonEmptyString(value)) {
