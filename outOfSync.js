@@ -1,7 +1,7 @@
 const checkIf = require('check-if')
 const { ApolloError } = require('apollo-server')
 
-export default (localLastUpdated, serverLastUpdated) => {
+module.exports = (localLastUpdated, serverLastUpdated) => {
   if (!checkIf.areInSync(localLastUpdated, serverLastUpdated)) {
     const localUpdated = Date.UTC(localLastUpdated)
     const serverUpdated = Date.UTC(serverLastUpdated)
