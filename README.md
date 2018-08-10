@@ -1,4 +1,4 @@
-# apollo-throw-if
+# apollo-server-throw-if
 
 [![github license](https://img.shields.io/github/license/ericvera/apollo-server-throw-if.svg?style=flat-square)](https://github.com/ericvera/apollo-server-throw-if/blob/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/apollo-server-throw-if.svg?style=flat-square)](https://npmjs.org/package/apollo-server-throw-if)
