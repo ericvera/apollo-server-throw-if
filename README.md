@@ -32,3 +32,4 @@ throwIf.invalidDateInMs('2043-01-01', 'lastUpdate')
 
 | `objectDoesNotContain(object, objectName, properties)` | Throws if any of the property names listed in `properties` are not in `object` |
 | `objectUpdatesHaveUnchangedProperties(objectUpdates, objectUpdatesName, originalObject)` | Throws if any of the propertes in the objectUpdates has the same value as in `originalObject`. Change validation uses `==` as opposed to `===` and only works for objects that does not contain nested objects. |
+| `outOfSync(localLastUpdated, serverLastUpdated)` | Throws if:</br>- any of the provided dates is not a valid date</br>- dates are not the same|
