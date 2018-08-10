@@ -18,11 +18,14 @@
     "url": "https://github.com/ericvera/apollo-server-throw-if",
     "type": "git"
   },
+  "peerDependencies": {
+    "apollo-server": "~2.0"
+  },
+  "dependencies": {
+    "check-if": "^0.2.0"
+  },
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "peerDependencies": {
-    "apollo-server": "~2.0"
   }
 }
