@@ -4,6 +4,7 @@ const invalidShortDate = require('./invalidShortDate')
 const invalidTrimmedNonEmptyString = require('./invalidTrimmedNonEmptyString')
 const objectDoesNotContain = require('./objectDoesNotContain')
 const objectUpdatesHaveUnchangedProperties = require('./objectUpdatesHaveUnchangedProperties')
+const outOfSync = require('./outOfSync')
 
 module.exports = {
   invalidDateInMs,
@@ -11,5 +12,6 @@ module.exports = {
   invalidShortDate,
   invalidTrimmedNonEmptyString,
   objectDoesNotContain,
-  objectUpdatesHaveUnchangedProperties
+  objectUpdatesHaveUnchangedProperties,
+  outOfSync
 }
