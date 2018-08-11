@@ -12,7 +12,7 @@ module.exports = (object, objectName, validator) => {
   // Iterate through all the keys
   // - if they are not found in validator, throw error about unexpected key
   // - if they are found validate
-  for (let propertyName of object) {
+  for (let propertyName in object) {
     if (!validator[propertyName]) {
       throw new UserInputError(`Property '${propertyName}' is invalid.`)
     }
