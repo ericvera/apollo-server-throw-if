@@ -2,6 +2,7 @@ const invalidDateInMs = require('./invalidDateInMs')
 const invalidFirestoreId = require('./invalidFirestoreId')
 const invalidShortDate = require('./invalidShortDate')
 const invalidTrimmedNonEmptyString = require('./invalidTrimmedNonEmptyString')
+const invalidUpdateObject = require('./invalidUpdateObject')
 const objectDoesNotContain = require('./objectDoesNotContain')
 const objectDoesNotExistOrIsDeleted = require('./objectDoesNotExistOrIsDeleted')
 const objectExist = require('./objectExist')
@@ -13,6 +14,7 @@ module.exports = {
   invalidFirestoreId,
   invalidShortDate,
   invalidTrimmedNonEmptyString,
+  invalidUpdateObject,
   objectDoesNotContain,
   objectDoesNotExistOrIsDeleted,
   objectExist,
