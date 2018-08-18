@@ -1,5 +1,6 @@
 const invalidDateInMs = require('./invalidDateInMs')
 const invalidFirestoreId = require('./invalidFirestoreId')
+const invalidFirestoreTimestamp = require('./invalidFirestoreTimestamp')
 const invalidShortDate = require('./invalidShortDate')
 const invalidTrimmedNonEmptyString = require('./invalidTrimmedNonEmptyString')
 const invalidUpdateObject = require('./invalidUpdateObject')
@@ -12,6 +13,7 @@ const outOfSync = require('./outOfSync')
 module.exports = {
   invalidDateInMs,
   invalidFirestoreId,
+  invalidFirestoreTimestamp,
   invalidShortDate,
   invalidTrimmedNonEmptyString,
   invalidUpdateObject,
