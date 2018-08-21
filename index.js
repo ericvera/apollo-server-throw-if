@@ -9,6 +9,7 @@ const nonEmptyFirestoreQuerySnapshot = require('./nonEmptyFirestoreQuerySnapshot
 const objectDoesNotContain = require('./objectDoesNotContain')
 const objectDoesNotExistOrIsDeleted = require('./objectDoesNotExistOrIsDeleted')
 const objectExist = require('./objectExist')
+const objectExistAndIsNotDeleted = require('./objectExistAndIsNotDeleted')
 const objectUpdatesHaveUnchangedProperties = require('./objectUpdatesHaveUnchangedProperties')
 const outOfSync = require('./outOfSync')
 const outOfSyncFirestoreTimestamps = require('./outOfSyncFirestoreTimestamps')
@@ -25,6 +26,7 @@ module.exports = {
   objectDoesNotContain,
   objectDoesNotExistOrIsDeleted,
   objectExist,
+  objectExistAndIsNotDeleted,
   objectUpdatesHaveUnchangedProperties,
   outOfSync,
   outOfSyncFirestoreTimestamps
